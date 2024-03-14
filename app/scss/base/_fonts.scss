@@ -1,0 +1,183 @@
+/* Fonts start */
+
+@font-face {
+    font-family: 'Montserrat-regular', sans-serif;
+    src: url('../fonts/Montserrat-Regular.eot') format('eot'),
+         url('../fonts/Montserrat-Regular.otf') format('otf'),
+         url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+         url('../fonts/Montserrat-Regular.woff') format('woff'),
+         url('../fonts/Montserrat-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-medium', sans-serif;
+    src: url('../fonts/Montserrat-Medium.eot') format('eot'),
+         url('../fonts/Montserrat-Medium.otf') format('otf'),
+         url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+         url('../fonts/Montserrat-Medium.woff') format('woff'),
+         url('../fonts/Montserrat-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    src: url('../fonts/Montserrat-SemiBold.eot') format('eot'),
+         url('../fonts/Montserrat-SemiBold.otf') format('otf'),
+         url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+         url('../fonts/Montserrat-SemiBold.woff') format('woff')
+         url('../fonts/Montserrat-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold', sans-serif;
+    src: url('../fonts/Montserrat-Bold.eot') format('eot'),
+         url('../fonts/Montserrat-Bold.otf') format('otf'),
+         url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+         url('../fonts/Montserrat-Bold.woff') format('woff')
+         url('../fonts/Montserrat-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open-Sans-regular', sans-serif;
+    src: url('../fonts/OpenSans-Regular.eot') format('eot'),
+         url('../fonts/OpenSans-Regular.otf') format('otf'),
+         url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('../fonts/OpenSans-Regular.woff') format('woff')
+         url('../fonts/OpenSans-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open-Sans-SemiBold', sans-serif;
+    src: url('../fonts/OpenSans-SemiBold.eot') format('eot'),
+         url('../fonts/OpenSans-SemiBold.otf') format('otf'),
+         url('../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+         url('../fonts/OpenSans-SemiBold.woff') format('woff')
+         url('../fonts/OpenSans-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-regular', sans-serif;
+    src: url('../fonts/Inter-Regular.eot') format('eot'),
+         url('../fonts/Inter-Regular.otf') format('otf'),
+         url('../fonts/Inter-Regular.woff2') format('woff2'),
+         url('../fonts/Inter-Regular.woff') format('woff')
+         url('../fonts/Inter-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter-medium', sans-serif;
+    src: url('../fonts/Inter-Medium.eot') format('eot'),
+         url('../fonts/Inter-Medium.otf') format('otf'),
+         url('../fonts/Inter-Medium.woff2') format('woff2'),
+         url('../fonts/Inter-Medium.woff') format('woff')
+         url('../fonts/Inter-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-regular', sans-serif;
+    src: url('../fonts/Lato-Regular.eot') format('eot'),
+         url('../fonts/Lato-Regular.otf') format('otf'),
+         url('../fonts/Lato-Regular.woff2') format('woff2'),
+         url('../fonts/Lato-Regular.woff') format('woff')
+         url('../fonts/Lato-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Catamaran-regular', sans-serif;
+    src: url('../fonts/Catamaran-Regular.eot') format('eot'),
+         url('../fonts/Catamaran-Regular.otf') format('otf'),
+         url('../fonts/Catamaran-Regular.woff2') format('woff2'),
+         url('../fonts/Catamaran-Regular.woff') format('woff')
+         url('../fonts/Catamaran-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Catamaran-medium', sans-serif;
+    src: url('../fonts/Catamaran-Medium.eot') format('eot'),
+         url('../fonts/Catamaran-Medium.otf') format('otf'),
+         url('../fonts/Catamaran-Medium.woff2') format('woff2'),
+         url('../fonts/Catamaran-Medium.woff') format('woff')
+         url('../fonts/Catamaran-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik-regular', sans-serif;
+    src: url('../fonts/Rubik-Regular.eot') format('eot'),
+         url('../fonts/Rubik-Regular.otf') format('otf'),
+         url('../fonts/Rubik-Regular.woff2') format('woff2'),
+         url('../fonts/Rubik-Regular.woff') format('woff')
+         url('../fonts/Rubik-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito-regular', sans-serif;
+    src: url('../fonts/Nunito-Regular.eot') format('eot'),
+         url('../fonts/Nunito-Regular.otf') format('otf'),
+         url('../fonts/Nunito-Regular.woff2') format('woff2'),
+         url('../fonts/Nunito-Regular.woff') format('woff')
+         url('../fonts/Nunito-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nunito-SemiBold', sans-serif;
+    src: url('../fonts/Nunito-SemiBold.eot') format('eot'),
+         url('../fonts/Nunito-SemiBold.otf') format('otf'),
+         url('../fonts/Nunito-SemiBold.woff2') format('woff2'),
+         url('../fonts/Nunito-SemiBold.woff') format('woff')
+         url('../fonts/Nunito-SemiBold.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Quattrocento-Sans-regular', sans-serif;
+    src: url('../fonts/QuattrocentoSans-Regular.eot') format('eot'),
+         url('../fonts/QuattrocentoSans-Regular.otf') format('otf'),
+         url('../fonts/QuattrocentoSans-Regular.woff2') format('woff2'),
+         url('../fonts/QuattrocentoSans-Regular.woff') format('woff')
+         url('../fonts/QuattrocentoSans-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Fonts end */

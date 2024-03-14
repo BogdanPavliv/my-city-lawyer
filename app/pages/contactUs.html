@@ -1,0 +1,70 @@
+<!--=include ../components/header.html -->
+
+<main class="main">
+    <section class="top top-title lazy" data-src="./images/contact/contact.webp" data-src-replace-webp="./images/contact/contact.jpg">
+       <div class="container">
+           <div class="top__inner">
+                <div class="title">
+                    Зв'яжіться з нами
+                </div>   
+           </div>
+       </div>
+    </section>
+    <section class="contacts lazy" data-src="./images/contact/contact-bg.webp" data-src-replace-webp="./images/contact/contact-bg.png">
+        <div class="container">
+            <h2 class="section-title">Зв'яжіться з нами сьогодні</h2>
+            <div class="contacts__row">
+                <div class="contacts__content">
+                    <div class="contacts__content--top">
+                        <h2 class="contacts__content--title">Контактні дані</h2>
+                        <p class="contacts__content--text">Якщо у вас виникли запитання, просто заповніть контактну форму, і ми відповімо вам найближчим часом. Якщо ви живете неподалік, завітайте до нашого офісу.</p>
+                    </div>
+                    <div class="contacts__content--bottom">
+                        <ul class="contacts__content--list">
+
+                            <li class="contacts__content--item">
+                                <h3 class="contacts__item--text">Підтримка клієнтів:</h3>
+                                <a class="contacts__item--content phone" href="tel:+380501234567">+38(050)123-45-67</a>
+                            </li>
+
+                            <li class="contacts__content--item">
+                                <h3 class="contacts__item--text">E-mail:</h3>
+                                <a class="contacts__item--content email" href="mailto:info@demolink.org">info@mycitylawyer.com</a>
+                            </li>
+
+                            <li class="contacts__content--item">
+                                <h3 class="contacts__item--text">Головний офіс:</h3>
+                                <div class="contacts__item--content address">18/A, вул. Хрещатик <br>
+                                    Київ, Україна</div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="contacts__form">
+                    <div class="contacts__form--wrapper">
+                        <form class="form" id="form" action="#">
+                            <label class="contacts__form--label" for="formName">Повне ім'я *</label>
+                            <input class="contacts__form--input _req" id="formName" type="text" name="name" placeholder="Повне ім'я">
+    
+                            <label class="contacts__form--label" for="formEmail">Email адреса *</label>
+                            <input class="contacts__form--input _req _email" id="formEmail" type="text" name="email" placeholder="Введіть Email">
+    
+                            <label class="contacts__form--label" for="formSubject">Тема *</label>
+                            <input class="contacts__form--input" id="formSubject" type="text" placeholder="Тема">
+    
+                            <label class="contacts__form--label" for="formTextarea">Повідомлення *</label>
+                            <textarea class="contacts__form--textarea" id="formTextarea" name="message" cols="30" rows="10" type="text" placeholder="Ваше повідомлення.."></textarea>
+                            <div class="contacts__form--recaptcha">
+                                <div class="g-recaptcha" data-sitekey="6Ld6SncpAAAAAAyfZsL63toCc4qlniR3eDXsdXUB"></div>
+                            </div>
+                            <button class="contacts__form--button" type="submit">Надіслати зараз</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!--=include ../components/footer.html -->

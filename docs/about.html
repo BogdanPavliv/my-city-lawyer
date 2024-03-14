@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="css/style.min.css" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <meta name="description" content="MyCityLawyer — юридична компанія"> 
+    <meta name="keywords" content="юридична компанія"> 
+
+    <meta property="og:title" content="MyCityLawyer — юридична компанія" />
+    <meta property="og:description" content="MyCityLawyer — юридична компанія" />
+    <meta property="og:image" content="./images/home-page/my-city/my-city-bg.jpg" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="150x150" href="./images/favicon/mstile-150x150.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>MyCityLawyer</title>
+  </head>
+  <body>
+    <div class="wrapper">
+        <header class="header haeder-main">
+        <div class="container">
+                <div class="header-row">
+                    <div class="header-logo">
+                        <a class="header-logo__link" href="index.html">
+                            <img class="header-logo__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/icons/logo.svg" alt="Logo" width="138" height="40"/>
+                        </a>
+                    </div>
+                    <nav class="header-nav">
+                        <ul>
+                            <li><a href="index.html">Головна</a></li>
+                            <li><a href="about.html">Про нас</a></li>
+                            <li><a href="solutions.html">Рішення</a></li>
+                            <li><a href="addListing.html">Додати список</a></li>
+                            <li><a href="find.html">Знайдіть юриста</a></li>
+                            <li><a href="contactUs.html">Контакти</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header-login">
+                        <a href="#" class="btn">
+                            <img class="btn__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/icons/user.svg" alt="User"  width="14" height="16"/>
+                            Увійти
+                        </a>
+                    </div>
+                    <button class="mobile-nav-button" type="button" aria-label="Menu button">
+                        <span class="mobile-nav-button__icon"></span>
+                    </button>
+                </div>
+        </div>
+        </header>
+
+    <div class="mobile-nav">
+        <img class="mobile-nav-logo lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/icons/logo.svg" alt="Logo" width="138" height="40"/>
+
+        <nav class="mobile-nav-list">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="solutions.html">Рішення</a></li>
+                <li><a href="addListing.html">Додати список</a></li>
+                <li><a href="find.html">Знайдіть юриста</a></li>
+                <li><a href="contactUs.html">Контакти</a></li>
+            </ul>
+        </nav>
+
+        <div class="mobile-login">
+            <a href="#" class="btn btn-big">
+                <img class="btn__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/icons/user.svg" alt="User" width="14" height="16"/>
+                Увійти
+            </a>
+        </div>
+    </div>
+
+
+
+<main class="main">
+    <section class="top top-title lazy" data-src="./images/about/about.webp" data-src-replace-webp="./images/about/about.jpg">
+       <div class="container">
+           <div class="top__inner">
+                <div class="title">
+                    Про нас
+                </div>   
+           </div>
+       </div>
+    </section>
+    <section class="our-name">
+       <div class="container">
+            <h2 class="section-title">Наше ім'я легко запам'ятовується.<br>Нашу роботу важко забути.</h2>
+            <div class="our-name__inner">
+                <div class="our-name__img-wrapper">
+                    <picture>
+                        <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/about/our-name.webp"/>
+                        <img class="our-name__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/our-name.jpg" alt="Our name" width="654" height="362"/>
+                    </picture>
+                </div>
+                <div class="our-name__content">
+                    <div class="content-text">
+                        <p>
+                            Динамічна юридична компанія, що змінює ставлення до правової допомоги. Ми надаємо доступні послуги кожному громадянину України. Наші експерти готові забезпечити надійний захист вашим правам. Залиштеся впевненими у своєму завтрашньому разом з MyCityLawyer.
+                        </p>
+                    </div>
+                    <div class="content-name">
+                        Михайло Шевчук
+                    </div>
+                    <div class="our-name__role">
+                        Засновник
+                    </div>
+                </div>
+            </div>
+       </div>
+    </section>
+    <section class="why-choose lazy" data-src="./images/about/why-choose.webp" data-src-replace-webp="./images/about/why-choose.png">
+        <div class="container">
+            <div class="why-choose__inner">
+                <div class="why-choose__content">
+                    <h2 class="section-title">Чому саме <br> My City Lawyer</h2>
+                    <div class="content-text">
+                        <p>
+                            Обирайте MyCityLawyer для надійного захисту ваших прав. Наша команда юристів - це гарантія якості та професіоналізму. Ми працюємо для вас, забезпечуючи комплексні юридичні рішення у будь-яких ситуаціях.
+                        </p>
+                    </div>
+                    <div class="why-choose__content--bottom">
+                        <a class="why-choose__content--link" href="">
+                            Зв'язатися
+                            <img class="why-choose__content--img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/about-arrow-right.svg" alt="Arrow right" width="16" height="12">
+                        </a>
+                    </div>
+                </div>
+                <div class="why-choose__points">
+
+                    <div class="why-choose__point">
+                        <h3 class="why-choose__point--title">Експерти</h3>
+                        <p class="why-choose__point--text">Професійні юристи з глибоким досвідом.</p>
+                    </div>
+
+                    <div class="why-choose__point">
+                        <h3 class="why-choose__point--title">Чудові знижки</h3>
+                        <p class="why-choose__point--text">Ексклюзивні знижки для наших клієнтів.</p>
+                    </div>
+
+                    <div class="why-choose__point">
+                        <h3 class="why-choose__point--title">Перегляд справи</h3>
+                        <p class="why-choose__point--text">Ретельний перегляд кожної справи.</p>
+                    </div>
+
+                    <div class="why-choose__point">
+                        <h3 class="why-choose__point--title">Консультації</h3>
+                        <p class="why-choose__point--text">Тільки професійні консультації від наших експертів.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our-history">
+        <div class="container">
+            <h2 class="our-history__title">Наша історія</h2>
+            <div class="our-history__subtitle">Понад 26 років підтвердженого успіху</div>
+            <div class="our-history__inner">
+                <div class="our-history__content">
+                    <h2 class="section-title">Вас вітає АО «My City Lawyer»</h2>
+                    <div class="our-history__content--text">
+                        <p>
+                            Історія компанії почалася з покращення фінансового становища військових пенсіонерів та правоохоронців. Адвокат Калинюк Ольга Іванівна в своїй юридичній практиці має 10 років роботи у цьому напрямку. Але тільки з часом ця діяльність перетворилася у компанію.
+                        </p>
+                        <p>
+                            За 2 роки оптимізованої та автоматизованої роботи ми допомогли більше, ніж 30 000 військовим пенсіонерам та правоохоронцям. Ми відкрили нові напрямки допомоги для пенсіонерів-силовиків, але вже з великою командою та працюючим юридичним організмом!Тисячі повідомлень та живих звернень з подякою надали нам сил та мотивації, тому ми вирішили почати допомагати не тільки пенсіонерм-силовикам.З кращими адвокатами з різних галузей ми почали розробляти програми для незахищених груп населення!Місія та мета нашої компанії народилася органічно, на основі життєвих проблем наших українців!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="our-history__bottom">
+                <div class="our-history__bottom--wrapper">
+
+                    <div class="our-history__item">
+                        <div class="our-history__item--title">2500</div>
+                        <div class="our-history__item--subtitle">Наші надійні клієнти</div>
+                    </div>
+
+                    <div class="our-history__item">
+                        <div class="our-history__item--title">76%</div>
+                        <div class="our-history__item--subtitle">Наші успішні справи</div>
+                    </div>
+
+                    <div class="our-history__item">
+                        <div class="our-history__item--title">1996</div>
+                        <div class="our-history__item--subtitle">Компанія заснована</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="best-attorneys">
+        <div class="container">
+            <h2 class="section-title">Найкращі юристи</h2>
+            <p class="section-subtitle">Експертні юристи: Ваша ключова спромога в складних справах. Досвід та професіоналізм - основа нашої команди.</p>
+            <ul class="attorney__list">
+
+                <li class="attorney__item">
+                    <div class="attorney__item--wrapper">
+                        <div class="attorney__item--img-wrapper">
+                            <picture>
+                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/about/attorney-1.webp"/>
+                                <img class="attorney__item--img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/attorney-1.jpg" alt="Андрій Коваленко" width="264" height="254">
+                            </picture>
+                            <div class="attorney__item--img-overlay">
+                                <ul class="attorney__item--img-socials">
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.facebook.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/facebook.svg" alt="Facebook" width="22" height="22" aria-label="Facebook">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://twitter.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/twitter.svg" alt="Twitter" width="22" height="22" aria-label="Twitter">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.instagram.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/instagram.svg" alt="Instagram" width="22" height="22" aria-label="Instagram">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.linkedin.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/linkedin.svg" alt="Linkedin" width="22" height="22" aria-label="Linkedin">
+                                        </a>
+                                   </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="attorney__item--text">
+                            <div class="attorney__item--name">Андрій Коваленко</div>
+                            <div class="attorney__item--role">Сімейне право</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="attorney__item">
+                    <div class="attorney__item--wrapper">
+                        <div class="attorney__item--img-wrapper">
+                            <picture>
+                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/about/attorney-2.webp"/>
+                                <img class="attorney__item--img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/attorney-2.jpg" alt="Віктор Мандрик" width="264" height="254">
+                            </picture>
+                            <div class="attorney__item--img-overlay">
+                                <ul class="attorney__item--img-socials">
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.facebook.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/facebook.svg" alt="Facebook" width="22" height="22" aria-label="Facebook">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://twitter.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/twitter.svg" alt="Twitter" width="22" height="22" aria-label="Twitter">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.instagram.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/instagram.svg" alt="Instagram" width="22" height="22" aria-label="Instagram">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.linkedin.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/linkedin.svg" alt="Linkedin" width="22" height="22" aria-label="Linkedin">
+                                        </a>
+                                   </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="attorney__item--text">
+                            <div class="attorney__item--name">Віктор Мандрик</div>
+                            <div class="attorney__item--role">Кримінальне право</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="attorney__item">
+                    <div class="attorney__item--wrapper">
+                        <div class="attorney__item--img-wrapper">
+                            <picture>
+                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/about/attorney-3.webp"/>
+                                <img class="attorney__item--img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/attorney-3.jpg" alt="Іван Крутоголов" width="264" height="254">
+                            </picture>
+                            <div class="attorney__item--img-overlay">
+                                <ul class="attorney__item--img-socials">
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.facebook.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/facebook.svg" alt="Facebook" width="22" height="22" aria-label="Facebook">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://twitter.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/twitter.svg" alt="Twitter" width="22" height="22" aria-label="Twitter">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.instagram.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/instagram.svg" alt="Instagram" width="22" height="22" aria-label="Instagram">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.linkedin.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/linkedin.svg" alt="Linkedin" width="22" height="22" aria-label="Linkedin">
+                                        </a>
+                                   </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="attorney__item--text">
+                            <div class="attorney__item--name">Іван Крутоголов</div>
+                            <div class="attorney__item--role">Планування нерухомості</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="attorney__item">
+                    <div class="attorney__item--wrapper">
+                        <div class="attorney__item--img-wrapper">
+                            <picture>
+                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/about/attorney-4.webp"/>
+                                <img class="attorney__item--img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/attorney-4.jpg" alt="Ярослав Камочкін" width="264" height="254">
+                            </picture> 
+                            <div class="attorney__item--img-overlay">
+                                <ul class="attorney__item--img-socials">
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.facebook.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/facebook.svg" alt="Facebook" width="22" height="22" aria-label="Facebook">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://twitter.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/twitter.svg" alt="Twitter" width="22" height="22" aria-label="Twitter">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.instagram.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/instagram.svg" alt="Instagram" width="22" height="22" aria-label="Instagram">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.linkedin.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/linkedin.svg" alt="Linkedin" width="22" height="22" aria-label="Linkedin">
+                                        </a>
+                                   </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="attorney__item--text">
+                            <div class="attorney__item--name">Ярослав Камочкін</div>
+                            <div class="attorney__item--role">Юрист з банкрутства</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="attorney__item">
+                    <div class="attorney__item--wrapper">
+                        <div class="attorney__item--img-wrapper">
+                            <picture>
+                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/about/attorney-5.webp"/>
+                                <img class="attorney__item--img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/attorney-5.jpg" alt="Анна Желдакова" width="264" height="254">
+                            </picture>
+                            <div class="attorney__item--img-overlay">
+                                <ul class="attorney__item--img-socials">
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.facebook.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/facebook.svg" alt="Facebook" width="22" height="22" aria-label="Facebook">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://twitter.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/twitter.svg" alt="Twitter" width="22" height="22" aria-label="Twitter">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.instagram.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/instagram.svg" alt="Instagram" width="22" height="22" aria-label="Instagram">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.linkedin.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/linkedin.svg" alt="Linkedin" width="22" height="22" aria-label="Linkedin">
+                                        </a>
+                                   </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="attorney__item--text">
+                            <div class="attorney__item--name">Анна Желдакова</div>
+                            <div class="attorney__item--role">Корпоративне право</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="attorney__item">
+                    <div class="attorney__item--wrapper">
+                        <div class="attorney__item--img-wrapper">
+                            <picture>
+                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/about/attorney-6.webp"/>
+                                <img class="attorney__item--img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/attorney-6.jpg" alt="Владислав Кириленко" width="264" height="254">
+                            </picture>
+                            <div class="attorney__item--img-overlay">
+                                <ul class="attorney__item--img-socials">
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.facebook.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/facebook.svg" alt="Facebook" width="22" height="22" aria-label="Facebook">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://twitter.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/twitter.svg" alt="Twitter" width="22" height="22" aria-label="Twitter">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.instagram.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/instagram.svg" alt="Instagram" width="22" height="22" aria-label="Instagram">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.linkedin.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/linkedin.svg" alt="Linkedin" width="22" height="22" aria-label="Linkedin">
+                                        </a>
+                                   </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="attorney__item--text">
+                            <div class="attorney__item--name">Владислав Кириленко</div>
+                            <div class="attorney__item--role">Імміграційне право</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="attorney__item">
+                    <div class="attorney__item--wrapper">
+                        <div class="attorney__item--img-wrapper">
+                            <picture>
+                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/about/attorney-7.webp"/>
+                                <img class="attorney__item--img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/attorney-7.jpg" alt="Іван Хайнацький" width="264" height="254">
+                            </picture>
+                            <div class="attorney__item--img-overlay">
+                                <ul class="attorney__item--img-socials">
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.facebook.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/facebook.svg" alt="Facebook" width="22" height="22" aria-label="Facebook">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://twitter.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/twitter.svg" alt="Twitter" width="22" height="22" aria-label="Twitter">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.instagram.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/instagram.svg" alt="Instagram" width="22" height="22" aria-label="Instagram">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.linkedin.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/linkedin.svg" alt="Linkedin" width="22" height="22" aria-label="Linkedin">
+                                        </a>
+                                   </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="attorney__item--text">
+                            <div class="attorney__item--name">Іван Хайнацький</div>
+                            <div class="attorney__item--role">Податкове право</div>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="attorney__item">
+                    <div class="attorney__item--wrapper">
+                        <div class="attorney__item--img-wrapper">
+                            <picture>
+                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/about/attorney-8.webp"/>
+                                <img class="attorney__item--img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/attorney-8.jpg" alt="Ірина Желдакова" width="264" height="254">
+                            </picture>
+                            <div class="attorney__item--img-overlay">
+                                <ul class="attorney__item--img-socials">
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.facebook.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/facebook.svg" alt="Facebook" width="22" height="22" aria-label="Facebook">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://twitter.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/twitter.svg" alt="Twitter" width="22" height="22" aria-label="Twitter">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.instagram.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/instagram.svg" alt="Instagram" width="22" height="22" aria-label="Instagram">
+                                        </a>
+                                   </li>
+    
+                                   <li class="attorney__item--img-socials-item">
+                                        <a class="attorney__item--img-socials-link" href="https://www.linkedin.com/">
+                                            <img class="attorney__item--img-socials-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/about/linkedin.svg" alt="Linkedin" width="22" height="22" aria-label="Linkedin">
+                                        </a>
+                                   </li>
+    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="attorney__item--text">
+                            <div class="attorney__item--name">Ірина Желдакова</div>
+                            <div class="attorney__item--role">Трудове право</div>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <section class="clients">
+        <div class="container">
+            <h2 class="section-title">Наші клієнти про нас</h2>
+            <div class="clients__slider">
+
+                <div class="swiper" id="swiper-clients">
+                    
+                    <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide">
+                        <div class="clients__item">
+                            <div class="client clients__card">
+                                <div class="client__top">
+                                    <div class="client__quote">
+                                        <p>
+                                            Ми завжди раді звернутися до MyCityLawyer, коли нам потрібна юридична допомога. Послуги завжди на висоті! Це перший раз, коли ми отримали таку безперервну підтримку (мабуть через ефективність їхньої команди). Наш адвокат, Олена, виявилася відмінною!
+                                        </p>                                      
+                                         
+                                        <p>
+                                            Персонал тут такий привітний до всіх. Щиро рекомендую звертатися сюди за юридичними послугами. Найкращі з найкращих!
+                                        </p>                                     
+                                    </div>
+                                </div>
+                                <div class="client__bottom">
+                                    <div class="client__bottom--wrapper">
+                                        <div class="client__bottom--img">
+                                            <picture>
+                                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/clients/client-1.webp"/>
+                                                <img class="client__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/clients/client-1.jpg" alt="Client 1">
+                                            </picture>
+                                        </div>
+                                        <div class="client__bottom--text">
+                                            <div class="client__bottom--name">Олена Дмитрова</div>
+                                            <div class="client__bottom--city">Київ, Україна</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="clients__item">
+                            <div class="client clients__card">
+                                <div class="client__top">
+                                    <div class="client__quote">
+                                        <p>
+                                            Кожного разу, коли нам потрібна юридична підтримка, ми звертаємося до MyCityLawyer. Їхні послуги завжди вражають! Цього року ми вперше скористалися можливістю запису на консультацію. Наш адвокат, Вікторія, була чудовою!
+
+                                        </p>
+                                        <p>
+                                            Персонал дуже привітний до всіх. Щиро рекомендую звертатися сюди за правовою допомогою. Краще просто немає!
+                                        </p>                                      
+                                    </div>
+                                </div>
+                                <div class="client__bottom">
+                                    <div class="client__bottom--wrapper">
+                                        <div class="client__bottom--img">
+                                            <picture>
+                                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/clients/client-2.webp"/>
+                                                <img class="client__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/clients/client-2.jpg" alt="Client 2">
+                                            </picture>
+                                        </div>
+                                        <div class="client__bottom--text">
+                                            <div class="client__bottom--name">Віктор Глинський</div>
+                                            <div class="client__bottom--city">Львів, Україна</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="clients__item">
+                            <div class="client clients__card">
+                                <div class="client__top">
+                                    <div class="client__quote">
+                                        <p>
+                                            Кожен раз, коли стикаюся з юридичними питаннями, знаю, що можу покластися на MyCityLawyer. Їхні адвокати вражають своєю кваліфікацією та професіоналізмом. Цього року вперше скористався їхніми послугами, і результат перевершив мої очікування.
+                                        </p>
+                                        <p>
+                                            Персонал дуже привітний до всіх. Щиро рекомендую звертатися сюди за правовою допомогою. Краще просто немає!
+                                        </p>                                      
+                                    </div>
+                                </div>
+                                <div class="client__bottom">
+                                    <div class="client__bottom--wrapper">
+                                        <div class="client__bottom--img">
+                                            <picture>
+                                                <source type="image/webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-srcset="./images/clients/client-3.webp"/>
+                                                <img class="client__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/clients/client-3.jpg" alt="Client 3">
+                                            </picture>
+                                        </div>
+                                        <div class="client__bottom--text">
+                                            <div class="client__bottom--name">Наталія Кольчинська</div>
+                                            <div class="client__bottom--city">Вінниця, Україна</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
+                
+                    <div class="swiper-clients-button-container">
+                        <div class="swiper-clients-button-container-wrapper">
+                            <div class="swiper-button-prev">
+                                <img class="swiper-button-prev__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/icons/arrow-prev.svg" alt="Arrow prev" width="15" height="10">
+                            </div>
+                            <div class="swiper-button-next">
+                                <img class="swiper-button-next__img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/icons/arrow-next.svg" alt="Arrow next" width="15" height="10">
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="stay-always">
+        <div class="container">
+            <div class="stay-always__inner">
+                <h2 class="section-title">Залишайтеся завжди на зв'язку</h2>
+                <h3 class="stay-always__subtitle">Підпишіться на наш список розсилки, щоб отримувати останні оновлення та пропозиції.</h3>
+                <form class="form" action="">
+                    <div class="stay-always__input--wrapper">
+                        <input class="stay-always__input" type="text" placeholder="Email адреса..">
+                        <button class="stay-always__button" type="submit">Підпишіться</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer__inner">
+
+                <div class="footer__top">
+
+                   <div class="footer__top--left">
+
+                       <div class="footer__top--left-logo">
+
+                            <a class="footer__top--left-link" href="index.html">
+
+                                <img class="footer__top--left-img lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-src="./images/icons/logo-footer.svg" alt="Logo" width="198" height="64">
+
+                            </a>
+
+                       </div>
+
+                       <p class="footer__top--left-description">
+
+                           Всі права захищені. Використання матеріалів даного сайту можливе тільки з посиланням на джерело.
+
+                       </p>
+
+                       <div class="footer__top--left-socials">
+
+                          <ul class="footer__top--left-socials-list">
+
+                            <li class="footer__top--left-socials-item">
+
+                                <a class="footer__top--left-socials-link" href="https://www.facebook.com/" aria-label="Facebook">
+
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                        <g clip-path="url(#clip0_27_1115)">
+
+                                            <path d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" class="link__img" fill="#394858"/>
+
+                                            <path d="M13.7656 11.4308H11.8027V18.6216H8.82891V11.4308H7.41455V8.90362H8.82891V7.26827C8.82891 6.09882 9.38442 4.26758 11.8292 4.26758L14.032 4.27679V6.72982H12.4337C12.1716 6.72982 11.8029 6.86081 11.8029 7.41867V8.90598H14.0254L13.7656 11.4308Z" fill="#131E1F"/>
+
+                                        </g>
+
+                                    </svg>
+
+                                </a>
+
+                            </li>
+
+                            <li class="footer__top--left-socials-item">
+
+                                <a class="footer__top--left-socials-link" href="https://twitter.com/" aria-label="Twitter">
+
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                        <path d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" class="link__img" fill="#394858"/>
+
+                                        <path d="M16.4622 8.24323C17.0214 7.85231 17.4917 7.36436 17.875 6.80251C17.3634 7.02308 16.8191 7.16918 16.2508 7.24026C16.8352 6.89672 17.2815 6.35687 17.4911 5.70646C16.9463 6.02631 16.3447 6.25195 15.7036 6.37831C15.1863 5.83564 14.449 5.5 13.6446 5.5C12.084 5.5 10.8276 6.74723 10.8276 8.27595C10.8276 8.49595 10.8465 8.70749 10.8929 8.90887C8.54963 8.79605 6.47568 7.69041 5.08234 6.00544C4.83943 6.42118 4.6962 6.89672 4.6962 7.40836C4.6962 8.36959 5.19865 9.22138 5.94859 9.71497C5.49542 9.70651 5.05141 9.57677 4.675 9.37313V9.40359C4.675 10.7524 5.65182 11.8727 6.93344 12.131C6.7037 12.1931 6.45391 12.2224 6.19438 12.2224C6.01391 12.2224 5.83172 12.2123 5.66099 12.175C6.02594 13.2739 6.93344 14.1088 8.29469 14.1088C7.33562 14.8472 6.1875 15.0615 4.8125 15.0615C4.58161 15.0615 4.34672 15.0892 4.125 15.0615C5.37396 15.8541 6.85323 16.5 8.44938 16.5C13.424 16.5 16.6661 12.4136 16.4622 8.24323Z" fill="#131E1F"/>
+
+                                    </svg>
+
+                                </a>
+
+                            </li>
+
+                            <li class="footer__top--left-socials-item">
+
+                                <a class="footer__top--left-socials-link" href="https://www.instagram.com/" aria-label="Instagram">
+
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                        <g clip-path="url(#clip0_27_1122)">
+
+                                        <path d="M13.1055 11C13.1055 12.1628 12.1628 13.1055 11 13.1055C9.83716 13.1055 8.89453 12.1628 8.89453 11C8.89453 9.83716 9.83716 8.89453 11 8.89453C12.1628 8.89453 13.1055 9.83716 13.1055 11Z" fill="#394858"/>
+
+                                        <path d="M15.9241 7.27434C15.8229 7.00008 15.6615 6.75183 15.4516 6.54807C15.2479 6.33826 14.9998 6.17679 14.7254 6.07558C14.5028 5.98914 14.1685 5.88625 13.5526 5.85822C12.8864 5.82784 12.6867 5.82129 11.0002 5.82129C9.31349 5.82129 9.11375 5.82767 8.44774 5.85805C7.83191 5.88625 7.49739 5.98914 7.27499 6.07558C7.00056 6.17679 6.75232 6.33826 6.54872 6.54807C6.33891 6.75183 6.17744 6.99991 6.07607 7.27434C5.98962 7.4969 5.88673 7.83142 5.8587 8.44725C5.82832 9.11327 5.82178 9.313 5.82178 10.9997C5.82178 12.6862 5.82832 12.886 5.8587 13.5521C5.88673 14.168 5.98962 14.5023 6.07607 14.7249C6.17744 14.9993 6.33875 15.2474 6.54855 15.4512C6.75232 15.661 7.0004 15.8224 7.27483 15.9236C7.49739 16.0103 7.83191 16.1131 8.44774 16.1412C9.11375 16.1716 9.31332 16.1779 11 16.1779C12.6869 16.1779 12.8866 16.1716 13.5525 16.1412C14.1683 16.1131 14.5028 16.0103 14.7254 15.9236C15.2762 15.7112 15.7116 15.2758 15.9241 14.7249C16.0106 14.5023 16.1135 14.168 16.1417 13.5521C16.172 12.886 16.1784 12.6862 16.1784 10.9997C16.1784 9.313 16.172 9.11327 16.1417 8.44725C16.1136 7.83142 16.0107 7.4969 15.9241 7.27434ZM11.0002 14.243C9.20876 14.243 7.75655 12.791 7.75655 10.9995C7.75655 9.2081 9.20876 7.75606 11.0002 7.75606C12.7914 7.75606 14.2437 9.2081 14.2437 10.9995C14.2437 12.791 12.7914 14.243 11.0002 14.243ZM14.3719 8.38582C13.9533 8.38582 13.6139 8.04643 13.6139 7.62782C13.6139 7.20921 13.9533 6.86983 14.3719 6.86983C14.7905 6.86983 15.1299 7.20921 15.1299 7.62782C15.1297 8.04643 14.7905 8.38582 14.3719 8.38582Z" fill="#394858"/>
+
+                                        <path d="M11 0C4.9258 0 0 4.9258 0 11C0 17.0742 4.9258 22 11 22C17.0742 22 22 17.0742 22 11C22 4.9258 17.0742 0 11 0ZM17.2783 13.6041C17.2478 14.2765 17.1408 14.7356 16.9847 15.1374C16.6566 15.9859 15.9859 16.6566 15.1374 16.9847C14.7358 17.1408 14.2765 17.2476 13.6043 17.2783C12.9307 17.309 12.7156 17.3164 11.0002 17.3164C9.28461 17.3164 9.0696 17.309 8.39586 17.2783C7.72363 17.2476 7.2644 17.1408 6.86275 16.9847C6.44112 16.8261 6.05943 16.5775 5.74388 16.2561C5.42262 15.9407 5.17404 15.5589 5.01543 15.1374C4.85933 14.7358 4.75241 14.2765 4.72186 13.6043C4.69081 12.9306 4.68359 12.7154 4.68359 11C4.68359 9.28461 4.69081 9.06943 4.72169 8.39586C4.75224 7.72346 4.85899 7.2644 5.01509 6.86258C5.17371 6.44112 5.42245 6.05927 5.74388 5.74388C6.05927 5.42245 6.44112 5.17387 6.86258 5.01526C7.2644 4.85916 7.72346 4.75241 8.39586 4.72169C9.06943 4.69098 9.28461 4.68359 11 4.68359C12.7154 4.68359 12.9306 4.69098 13.6041 4.72186C14.2765 4.75241 14.7356 4.85916 15.1374 5.01509C15.5589 5.17371 15.9407 5.42245 16.2563 5.74388C16.5775 6.05943 16.8263 6.44112 16.9847 6.86258C17.141 7.2644 17.2478 7.72346 17.2785 8.39586C17.3092 9.06943 17.3164 9.28461 17.3164 11C17.3164 12.7154 17.3092 12.9306 17.2783 13.6041Z" class="link__img" fill="#394858"/>
+
+                                        </g>
+
+                                    </svg>         
+
+                                </a>
+
+                            </li>
+
+                            <li class="footer__top--left-socials-item">
+
+                                <a class="footer__top--left-socials-link" href="https://www.linkedin.com/" aria-label="LinkedIn">
+
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                                        <g clip-path="url(#clip0_27_1126)">
+
+                                        <path d="M11 0C4.9258 0 0 4.9258 0 11C0 17.0742 4.9258 22 11 22C17.0742 22 22 17.0742 22 11C22 4.9258 17.0742 0 11 0ZM7.80353 16.6289H5.12453V8.56908H7.80353V16.6289ZM6.46411 7.46851H6.44666C5.54767 7.46851 4.96625 6.84966 4.96625 6.07622C4.96625 5.28532 5.56546 4.68359 6.4819 4.68359C7.39835 4.68359 7.96231 5.28532 7.97977 6.07622C7.97977 6.84966 7.39835 7.46851 6.46411 7.46851ZM17.4634 16.6289H14.7848V12.3171C14.7848 11.2335 14.3969 10.4944 13.4276 10.4944C12.6875 10.4944 12.2468 10.993 12.0531 11.4742C11.9822 11.6464 11.965 11.8871 11.965 12.1279V16.6289H9.28612C9.28612 16.6289 9.3212 9.32523 9.28612 8.56908H11.965V9.71027C12.321 9.16107 12.9579 8.37991 14.3793 8.37991C16.1418 8.37991 17.4634 9.53185 17.4634 12.0074V16.6289Z" class="link__img" fill="#394858"/>
+
+                                        </g>
+
+                                    </svg>     
+
+                                </a>
+
+                            </li>
+
+                          </ul>
+
+                       </div>
+
+                   </div>
+
+                   <div class="footer__top--right">
+
+                      <div class="footer__top--right-wrapper">
+
+                            <nav class="footer__top--right-menu">
+
+                                <ul class="footer__top--right-menu-list">
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <p class="footer__top--right-menu-title">Довідка</p>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Обслуговування</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Допомога</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Сервіс</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Пожертвування</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Догляд за дітьми</a>
+
+                                    </li>
+
+                                </ul>
+
+                                <ul class="footer__top--right-menu-list">
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <p class="footer__top--right-menu-title">Інформація</p>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Про нас</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Наша команда</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Область практики</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Довідка</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Підручники</a>
+
+                                    </li>
+
+                                </ul>
+
+                                <ul class="footer__top--right-menu-list">
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <p class="footer__top--right-menu-title">Підтримка</p>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Підтримка</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Документація</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Часті запитання</a>
+
+                                    </li>
+
+                                    <li class="footer__top--right-menu-item">
+
+                                        <a class="footer__top--right-menu-link" href="#">Контакти</a>
+
+                                    </li>
+
+                                </ul>
+
+                            </nav>
+
+                      </div>
+
+                   </div>
+
+                </div>
+
+                <div class="footer__bottom">
+
+                    <p class="footer__bottom--copy">
+
+                        Copyright © My City Lawyer 2022
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</div>
+
+<script src="js/main.min.js"></script>
+
+</body>
+
+
+
+</html>
