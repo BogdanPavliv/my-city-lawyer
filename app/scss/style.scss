@@ -564,6 +564,12 @@ a.btn:hover {
         margin-bottom: 40px;
         padding: 0 20px;
         position: relative;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+    }
+    &__item:hover {
+        opacity: 0.9;
+	    transform: translateY(-5px);
     }
 }
 
@@ -643,7 +649,7 @@ a.btn:hover {
     }
 
     &__button {
-        display: flex;
+        display: inline-flex;
         align-items: center;
         gap: 12px;
         color: rgba(21, 77, 142, 0.68);
@@ -680,6 +686,8 @@ a.btn:hover {
         align-items: center;
         justify-content: center;
         position: relative;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
     }
 
     &__item::before {
@@ -717,7 +725,6 @@ a.btn:hover {
     }
 
     &__item:hover {
-        border-radius: 8px;
         background: #FFF;
     }
 }
@@ -784,6 +791,11 @@ a.btn:hover {
         }
     }
 
+    .lawyers__item:hover {
+        opacity: .9;
+        transform: unset;
+    }
+
 }
 
 #swiper-lawyer-listing.swiper {
@@ -817,7 +829,13 @@ a.btn:hover {
         flex: 0 1 20%;
         padding: 0 11px;
         height: auto;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+    }
 
+    &__item:hover {
+        opacity: 0.9;
+        transform: translateY(-5px);
     }
 
     &__item--wrapper {
@@ -1210,7 +1228,13 @@ a.btn:hover {
         padding: 0 20px;
         margin-bottom: 42px;
         position: relative;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+    }
 
+    &__item:hover {
+        opacity: 0.9;
+        transform: translateY(-5px);
     }
 }
 
@@ -1602,6 +1626,7 @@ a.btn:hover {
         flex-direction: column;
         justify-content: center;
         gap: 4px;
+        cursor: pointer;
     }
 
     &__point--title {
@@ -1741,6 +1766,13 @@ a.btn:hover {
         padding: 0 14px;
         margin-bottom: 45px;
         position: relative;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+    }
+
+    &__item:hover {
+        opacity: 0.9;
+	    transform: translateY(-5px);
     }
 
     &__item--img-wrapper {
@@ -1833,6 +1865,13 @@ a.btn:hover {
         flex: 0 1 33.333%;
         padding: 0px 10px 0px 10px;
         margin-bottom: 95px;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+    }
+
+    &__item:hover {
+        opacity: 0.9;
+        transform: translateY(-5px);
     }
 
     &__item--wrapper {
@@ -2372,6 +2411,13 @@ a.btn:hover {
     overflow: hidden;
     background-color: #FFF;
     border-radius: 12px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.9;
+        transform: translateY(-5px);
+    }
 
     &__header {
         margin: 0 0 20px;
@@ -2845,6 +2891,12 @@ a.btn:hover {
         overflow: hidden;
         background-color: transparent;
         border-radius: 0px;
+        cursor: default;
+
+        &:hover {
+            opacity: unset;
+            transform: unset;
+        }
     }
 
     .post__title {
@@ -3152,6 +3204,13 @@ a.btn:hover {
 .advantages {
     .points__item {
         margin-bottom: 0px;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+    }
+
+    .points__item:hover {
+        opacity: 0.9;
+        transform: translateY(-5px);
     }
 }
 
@@ -3176,8 +3235,8 @@ a.btn:hover {
             background: transparent;
             padding: 32px 20px;
             margin-bottom: 0;
-
             position: relative;
+            cursor: pointer;
         }
 
         &__item::after {
@@ -3573,6 +3632,11 @@ a.btn:hover {
     border-radius: 12px;
     background: #FFF;
     box-shadow: 12px 12px 80px 0px rgba(44, 34, 83, 0.04);
+    transition: all 0.2s ease-in;
+
+    &:hover {
+      opacity: 0.9;
+    }
 }
 
 .block-item {
@@ -3607,8 +3671,14 @@ a.btn:hover {
         flex: 0 1 33.333%;
         position: relative;
         padding: 0 20px;
-
         margin-bottom: 37px;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+    }
+
+    &__item:hover {
+        opacity: 0.9;
+        transform: translateY(-5px);
     }
 }
 
@@ -3857,6 +3927,13 @@ a.btn:hover {
         margin-bottom: 24px;
         display: flex;
         justify-content: space-between;
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+    }
+
+    &__list--item:hover {
+        opacity: 0.9;
+        transform: translateY(-5px);
     }
 
     &__list--item-profile {
@@ -4084,6 +4161,13 @@ a.btn:hover {
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.90);
         box-shadow: 22px 22px 60px 0px rgba(29, 29, 48, 0.10);
+        transition: all 0.2s ease-in;
+        cursor: pointer;
+    }
+
+    &__details:hover {
+        opacity: 0.9;
+        transform: translateY(-5px);
     }
 
     &__details--rating-wrapper {
@@ -4433,8 +4517,13 @@ a.btn:hover {
         transition: fill .2s ease;
     }
 
-    .link__img:hover {
-        fill: #fff;
+    svg:hover {
+        transition: transform .2s ease;
+        transform: scale(1.2);
+
+        .link__img {
+            fill: #fff;
+        }
     }
 }
 
